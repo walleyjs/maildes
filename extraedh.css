@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#bcgTable {
+    background-color: #F4F4F4;
+}
+
+.card {
+    margin: 20px 0 0;
+}
+
+.imgtd1 {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 3px solid #00A8E6;
+}
+
+.greet1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 21px 0px 0px 15px;
+    line-height: 20px;
+    color: #171E27;
+}
+
+.greet2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #283444;
+    padding: 5px 0px 0px 15px;
+}
+
+.topIn div {
+    background: #F4F4F4;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: start;
+    color: #283444;
+    padding: 15px 17px;
+    margin: 15px;
+}
+
+.abtNws {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #283444;
+}
+
+#tableli {
+    background: linear-gradient(0deg, #00AFEF 0%, #006E96 100%);
+    border-radius: 3px;
+    padding: 10px 30px 30px;
+    margin: 10px 20px 20px;
+}
+
+#tablehead {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 0 7px;
+}
+
+b {
+    color: #00A8E6;
+}
+
+#etable {
+    border-collapse: collapse;
+    background: #E7E7E7;
+    width: 100%;
+}
+
+#etable .etable1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #171E27;
+}
+
+.start {
+    text-align: start;
+    padding: 7px 0 7px 50px;
+}
+
+.end {
+    text-align: end;
+    padding: 7px 50px 7px 0;
+}
+
+.etables {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 11px;
+    color: #171E27;
+    background: #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.73);
+}
+
+#intro {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #283444;
+    padding: 0 15px 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.card2 td {
+    padding: 25px 20px;
+}
+
+.country img {
+    border-radius: 4px;
+}
+
+ul .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #283444;
+    list-style-type: disc;
+    margin: 20px 20px 0;
+}
+
+.country .nameCount {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    padding: 0 0 15px;
+    color: #1A1A1A;
+}
+
+.header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+    color: #000000;
+    padding: 10px 0 0;
+}
+
+.content a {
+    color: #00A8E6;
+}
+
+.card3 td {
+    padding: 15px 20px;
+}
+
+#bottom {
+    margin: 15px;
+}
+
+#quote {
+    background-color: #121213;
+    border-radius: 3px;
+    padding: 5px 0 20px 20px;
+}
+
+.quote {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 8px 0 0;
+}
+
+.quotecont {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color: #F4F4F4;
+    text-align: start;
+    padding: 20px 20px 5px;
+}
+
+.botIn {
+    background: #F4F4F4;
+    border-radius: 3px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: start;
+    color: #283444;
+    padding: 0 17px 15px;
+    margin: 25px 0 20px;
+}
+
+.botIn .header {
+    padding: 10px 0 7px;
+}
+
+.prob {
+    background: #CCEFFC;
+    border-radius: 3px;
+    font-style: normal;
+    font-size: 16px !important;
+    line-height: 160%;
+    color: #1A1A1A;
+    padding: 15px 10px 20px 15px;
+}
+
+.prob a {
+    color: #00A8E6;
+}
+
+.card4 {
+    margin: 15px 0 30px;
+}
+
+.follow {
+    padding: 5px 0 5px 50px;
+}
+
+.f1 {
+    color: #1A1A1A;
+    padding: 0 50px 0 40px;
+    background-color: #CCEFFC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    table[class=w640] {
+        width: 200px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    table[class=mainbd] {
+        width: 20% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div .greet1 {
+        font-size: 23px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div .greet2 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .topIn div {
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .abtNws {
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr #tablehead {
+        font-size: 24px !important;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr div #etable {
+        line-height: 26px !important;
+    }
+    div tr div #etable .etable1 {
+        font-size: 22px !important;
+        line-height: 18px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr div .etables {
+        font-size: 19px !important;
+        line-height: 15px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr #intro {
+        font-size: 23px !important;
+        line-height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul .content {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul .nameCount {
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul .header {
+        font-size: 30px !important;
+        padding: 29px 0px 5px 0px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .quote {
+        font-size: 23px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .quotecont {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .botIn {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .prob {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .f1 {
+        font-size: 23px !important;
+    }
+}
+
+</style>

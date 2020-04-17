@@ -1,0 +1,890 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="./another.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300&amp;display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        #bcgTable {
+            background-color: #F4F4F4;
+        }
+        
+        .card {
+            margin: 20px 0 0;
+        }
+        
+        .imgtd1 {
+            text-align: center;
+            padding: 5px 0;
+            border-bottom: 3px solid #00A8E6;
+        }
+        
+        .greet1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px;
+            padding: 21px 0px 0px 15px;
+            line-height: 20px;
+            color: #171E27;
+        }
+        
+        .greet2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: #283444;
+            padding: 5px 0px 0px 15px;
+        }
+        
+        .topIn div {
+            background: #F4F4F4;
+            border-radius: 3px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: start;
+            color: #283444;
+            padding: 15px 17px;
+            margin: 15px;
+        }
+        
+        .abtNws {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 19px;
+            line-height: 23px;
+            text-align: center;
+            color: #283444;
+        }
+        
+        #tableli {
+            background: linear-gradient(0deg, #00AFEF 0%, #006E96 100%);
+            border-radius: 3px;
+            padding: 10px 30px 30px;
+            margin: 10px 20px 20px;
+        }
+        
+        #tablehead {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 0 0 7px;
+        }
+        
+        b {
+            color: #00A8E6;
+        }
+        
+        #etable {
+            border-collapse: collapse;
+            background: #E7E7E7;
+            width: 100%;
+        }
+        
+        #etable .etable1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 16px;
+            color: #171E27;
+        }
+        
+        .start {
+            text-align: start;
+            padding: 7px 0 7px 50px;
+        }
+        
+        .end {
+            text-align: end;
+            padding: 7px 50px 7px 0;
+        }
+        
+        .etables {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 11px;
+            color: #171E27;
+            background: #FFFFFF;
+            border-top: 1px solid rgba(0, 0, 0, 0.73);
+        }
+        
+        #intro {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            color: #283444;
+            padding: 0 15px 20px;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .card2 td {
+            padding: 25px 20px;
+        }
+        
+        .country img {
+            border-radius: 4px;
+        }
+        
+        ul .content {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #283444;
+            list-style-type: disc;
+            margin: 20px 20px 0;
+        }
+        
+        .country .nameCount {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 33px;
+            padding: 0 0 15px;
+            color: #1A1A1A;
+        }
+        
+        .header {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 26px;
+            color: #000000;
+            padding: 10px 0 0;
+        }
+        
+        .content a {
+            color: #00A8E6;
+        }
+        
+        .card3 td {
+            padding: 15px 20px;
+        }
+        
+        #bottom {
+            margin: 15px;
+        }
+        
+        #quote {
+            background-color: #121213;
+            border-radius: 3px;
+            padding: 5px 0 20px 20px;
+        }
+        
+        .quote {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 20px;
+            padding: 8px 0 0;
+        }
+        
+        .quotecont {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 23px;
+            color: #F4F4F4;
+            text-align: start;
+            padding: 20px 20px 5px;
+        }
+        
+        .botIn {
+            background: #F4F4F4;
+            border-radius: 3px;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: start;
+            color: #283444;
+            padding: 0 17px 15px;
+            margin: 25px 0 20px;
+        }
+        
+        .botIn .header {
+            padding: 10px 0 7px;
+        }
+        
+        .prob {
+            background: #CCEFFC;
+            border-radius: 3px;
+            font-style: normal;
+            font-size: 16px !important;
+            line-height: 160%;
+            color: #1A1A1A;
+            padding: 15px 10px 20px 15px;
+        }
+        
+        .prob a {
+            color: #00A8E6;
+        }
+        
+        .card4 {
+            margin: 15px 0 30px;
+        }
+        
+        .follow {
+            padding: 5px 0 5px 50px;
+        }
+        
+        .f1 {
+            color: #1A1A1A;
+            padding: 0 50px 0 40px;
+            background-color: #CCEFFC;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 18px;
+        }
+        
+        @media screen and (max-width: 480px) {
+            * {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            table[class=w640] {
+                width: 200px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            table[class=mainbd] {
+                width: 20% !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div .greet1 {
+                font-size: 23px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div .greet2 {
+                font-size: 20px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .topIn div {
+                font-size: 20px !important;
+                line-height: 25px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .abtNws {
+                font-size: 24px !important;
+                line-height: 30px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr #tablehead {
+                font-size: 24px !important;
+                line-height: 25px;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr div #etable {
+                line-height: 26px !important;
+            }
+            div tr div #etable .etable1 {
+                font-size: 22px !important;
+                line-height: 18px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr div .etables {
+                font-size: 19px !important;
+                line-height: 15px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr #intro {
+                font-size: 23px !important;
+                line-height: 30px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            ul .content {
+                font-size: 22px !important;
+                line-height: 30px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            ul .nameCount {
+                font-size: 40px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            ul .header {
+                font-size: 30px !important;
+                padding: 29px 0px 5px 0px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .quote {
+                font-size: 23px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .quotecont {
+                font-size: 22px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .botIn {
+                font-size: 22px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .prob {
+                font-size: 22px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .f1 {
+                font-size: 23px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table id="bcgTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td align="center">
+                    <table width="640" class="w640" cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="card card1">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td class="imgtd1">
+                                                    <div>
+                                                        <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1581612972/hic7hsmipjjwvoduo9ji.png" alt="" width="40%">
+                                                        <!-- <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1581612972/hic7hsmipjjwvoduo9ji.png" alt="" width="13%" align="right"> -->
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="greet greet1">Dear Smart EDHubers
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="greet greet2"> This is your Daily Dose!</td>
+                                            </tr>
+                                            <tr class="topTr">
+                                                <td class="topIn">
+                                                    <div>
+                                                        A hundred and eight (108) years ago today, a British ocean liner named <b>Titanic</b> sunk into the North Atlantic Ocean about 400 miles south of Newfoundland, Canada. The massive ship, which carried
+                                                        2,200 passengers and crew, had struck an iceberg two and half hours before the historic tragedy. 1,500 people aboard the ship either sunk or froze to death. The calamitous event remains a vital part
+                                                        of several cruising safety awareness schemes, even having a mega-movie made in its name. A careful reminder that nothing is too big to fail.
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" class="abtNws">
+                                                    Today's Newsletter Grinds
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div id="tableli">
+                                                        <div id="tablehead"> Nigeria Economy at a Glance</div>
+                                                        <table id="etable" cellpadding="0" cellspacing="0" border="0">
+                                                            <tr class="etable etable1">
+                                                                <td class="start">ITEM</td>
+                                                                <td class="end">CURRENT</td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">GDP growth (FY’19)</td>
+                                                                <td class="end">2.27%
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">Inflation rate(Feb ’20) </td>
+                                                                <td class="end">12.20%
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">Crude Oil</td>
+                                                                <td class="end"> $30.11
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">Interest(MPR) rate</td>
+                                                                <td class="end">13.5%</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td id="intro" align="center"> Here are the top news you should know in the global economy today, <b style="color:#00A8E6;">15 April 2020</b> in 5 minutes.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#33ca39;">Nigeria</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586901413/y7sqt9lerzmnglyxxvyq.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Exempted from grace
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            The International Monetary Fund (IMF) through it's World Economic Outlook report on Tuesday, predicts Nigeria could enter its worst recession in three decades, as it expects the economic growth to plunge by 3.4% this year on account of coronavirus pandemic
+                                                            and declining foreign earnings.
+                                                            <br>Elsewhere, IMF excluded Nigeria from the list of 25 countries granted debt relief worth $500 million. The beneficiaries include Afghanistan, Benin, Burkina Faso, Central African Republic,
+                                                            Chad, Comoros, Congo, D.R., The Gambia, Guinea, Guinea-Bissau, Haiti, Liberia, Madagascar, Malawi, Mali, Mozambique, Nepal, Niger, Rwanda, São Tomé and Príncipe, Sierra Leone, Solomon Islands,
+                                                            Tajikistan, Togo and Yemen.
+                                                            <a href="https://nairametrics.com/2020/04/14/why-imf-excluded-nigeria-from-list-of-countries-granted-debt-relief/?utm_source=Nairametrics+Newsletter&utm_campaign=09064bd986-EMAIL_CAMPAIGN_2020_02_28_03_22_COPY_233&utm_medium=email&utm_term=0_c96c21e814-09064bd986-110449837&mc_cid=09064bd986&mc_eid=34612214bc"> Read More</a>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            The Central Bank of Nigeria (CBN) has scrapped the submission of business plan as a mandatory requirement to apply for its N50bn loan facility. The loan is expected to be disbursed at a single-digit interest rate to households and SMEs particularly hit
+                                                            hard by the pandemic.
+                                                            <br> However, the application and review process will be managed through NIRSAL Microfinance Bank who shall access loan requests in compliance with CBN guidelines.
+                                                            <a href="https://businessday.ng/business-economy/article/cbn-scraps-business-plan-as-loan-requirement-for-n50bn-covid-19-fund/"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#D88405;">Africa</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586904753/n47k6aawncegy6w6r3i7.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                SA Staggers
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            South Africa’s central bank unexpectedly cut its benchmark interest rate by 100 basis points from 5.25% to 4.25%, signalling a record low.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Why is this important?</b>
+                                                            <br>South African economy has been faced with electricity shortages from Eskom Holdings resulting in the increased unemployment rate and economic decline. In this regard, the Monetary Policy
+                                                            Committee highlighted the need to support an economy already in recession before the pandemic and also projected to slump even deeper after the government extended a national lockdown in response
+                                                            to the coronavirus. Meanwhile, the lockdown which was due to end on April 16, was extended by two weeks and the central bank now sees the economy contracting by 6.1% this year.
+                                                            <br>
+                                                            <br> The <b>side gist</b> is that South Africa has reported over 2,400 cases of COVID-19 infections.
+                                                            <a href="https://www.bloomberg.com/news/articles/2020-04-14/south-africa-cuts-benchmark-rate-to-4-25-from-5-25?sref=d39KtWbu"> Read More</a>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Zimbabwe National Statistics Agency reported inflation figures for March 2020 yesterday, with month on month inflation at 26.59%, an increase from 13.52% in February.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Bottom line</b>The country's annual inflation rate is now at 676%.
+                                                            <a href="https://www.rbz.co.zw/"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#D80505;">The US</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586920476/wmxseem8wcd0wx0cddhj.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Federalism 101
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Controversies regarding who decides and when the U.S. opens back for business sparked after U.S. president, Donald Trump, hinted that the economy will possibly flip the "on" switch on the 1st of May.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">More Light 🔦:</b>
+                                                            <br>U.S. governors were against the president's target date. Infectious disease expert, Dr. Fauci says "Trump's May 1 target too optimistic for U.S. coronavirus reopening".
+                                                            <br> The coronavirus disease, despite showing signs of fading off, hit another record in the U.S. on Tuesday as number of deaths within a span of 24 hours crossed its highest level and jumped
+                                                            past 2104.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">
+                                                                Who Decides 🖊:</b>
+                                                            <br> Well, according to the U.S. constitution, state governments have the power to police citzens and regulate public welfare. To butress this, security and legal experts mentioned that distaster
+                                                            response and aid is state-led and federal-supported - not the other way round.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Although🕯:</b>
+                                                            <br>DAccording to a professor of national security law at the University of Texas, Robert Chesney, "The president can advocate to his heart’s content, but he can’t actually commandeer the state
+                                                            governments to make them change their policies”.
+
+                                                            <br>Just like when he released guidelines.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Grumpy Trump 😤:</b>
+                                                            <br>With all these, the U.S. president took to his lethal weapon (Twitter) to lash out at those not targetting his target and brought in a picture frame that involved democrats and republicans.
+
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">PS 🔔:</b> Trump says the U.S. will halt funding to the World Health Organization while the administration reviews how the group manged the virus.
+                                                            <a href="https://www.reuters.com/article/us-health-coronavirus-usa-reopen-explain/explainer-trump-has-little-power-to-restart-u-s-economy-idUSKCN21W15G">Read More</a> </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#4908FF;">Europe</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586905824/ngsornnde3rljiejkkbg.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Unceasing Efforts
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Greek Finance Minister, Christos Stalkouras stated Greece plans on Tuesday, to issue a seven-year bond to help boost state coffers and shield its economy from a protracted impact of the coronavirus pandemic.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Is Greece Capable?</b> <br> The country has weighed its decision and considers it not to affect its €15.7 billion cash reserve. For better performance, the bond
+                                                            will not be issued on aggressive terms to fulfil the reason of boosting the country's arsenal.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">  What More?  </b> <br>Half of the funds are reserved for the domestic market and a half to support exports. Loans will be provided to cover debts of smaller businesses
+                                                            The euro denominated bond due to mature in April 2027, will cost about 3.5% of Greece GDP and is planned to be launched soon with mandate on banks concerning the bonds.
+                                                            <br>
+                                                            <br>
+                                                            <b>What we think:</b><br> Greece already recorded about 2,170 coronavirus cases with 269 recoveries and 101 deaths. This bond might go a long way in supporting the fairly affected country compared
+                                                            to Italy and Spain with high number of cases.
+
+                                                            <a href="https://www.reuters.com/article/us-eurozone-greece-debt-minister/greek-to-issue-7-year-bond-to-shield-economy-from-covid-19-impact-minister-idUSKCN21W2TT"> Read More</a>
+                                                        </li>
+                                                        <li class="content content3">
+                                                            More emphasis are being laid on the half a trillion euro rescue package as Vladis Dombrovskis stated that access to the fund will be devoid of strictness or complexities, with some funds available to countries outside the Eurozone.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">The main Priority:</b> <br>The only requirement remains adherance to spending the funds on health-related measures to counter the coronavirus crisis.
+                                                            <br><br>
+                                                            <b>On a Final Note:</b><br> The Eurogroup has started discussions on another perturbing issue; the recovery phase, with proposals on using Multi-Annual Financial Frameworks and the Recovery Fund.
+                                                            More discussions are however in sight.
+                                                            <a href="https://www.euronews.com/2020/04/10/fiscal-support-to-non-eurozone-countries-a-possibility-as-bloc-backs-massive-coronavirus-r"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#00A8E6;">EDH Grind Team</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586898644/ol0ildijydlfepvd7tyt.gif" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Weird times
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            We are living through a very weird time tbh and yes, this too shall pass. I honestly understand if you can't get it together right now and it just feels impossible for you to be yourself. But trust me, life is for the living, and we live today to fight
+                                                            another day.
+                                                            <br> As I write, I am outside the house with my father and some other landlords in the neighbourhood playing vigilante. Except that it's not a joke, we are serving as the first line of defence
+                                                            against armed robbery in our community. It is what it is.. #prayforNigeria
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#C8B203;">Energy And Commodities</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586317490/ektqbccuy8ramqnyiffb.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                OPEC awaits U.S decision....
+                                                            </div>
+                                                            <br>
+                                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <th></th>
+                                                                        <th style="padding:0px 0px 5px 10px !important; font-size: 15px;">price</th>
+                                                                        <th style="padding:0px 0px 0px 10px !important; font-size: 15px;">Change</th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th style="padding:10px 0px 5px 0px !important; font-size: 15px;">Brent Crude</th>
+                                                                        <td style="padding:10px 0px 5px 10px !important; font-size: 15px;"> $30.11 </td>
+                                                                        <td style="padding:10px 0px 0px 10px !important; font-size: 15px;"> -1.63%
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th style="padding:10px 0px 5px 0px !important; font-size: 15px;">Gold futures</th>
+                                                                        <td style="padding:10px 0px 5px 10px !important; font-size: 15px;"> $1752.00 </td>
+                                                                        <td style="padding:10px 0px 0px 10px !important; font-size: 15px;"> -0.95%
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Oil has given up all the gains it made since the start of the month as markets came to view the OPEC+ deal as inadequate.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;"> Quick Reminder</b>
+                                                            <br>OPEC+ agreed to cut nearly 10 mb/d, and depending on who is doing the accounting, additional cuts from other non-OPEC countries take the reductions up close to 20 mb/d.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">The Reality</b>
+                                                            <br> In reality, however, the market-based cuts from the likes of the U.S. will occur anyways and won’t be switched off overnight. Oil showed little life after the historic deal was announced,
+                                                            highlighting the magnitude of the massive drop in global demand.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Market Activity</b>
+                                                            <br> Crude prices slipped on Tuesday as investors were unconvinced that Sunday’s OPEC+ production cuts could resolve an inevitable supply glut. The fall was also driven by analysts' projections
+                                                            for the steepest recession in almost a century.
+
+                                                            <a href="https://www.hellenicshippingnews.com/big-opec-oil-output-cuts-depend-on-u-s-others-joining-sources/"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#6400A2;">The UK</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586900855/p9fwdifzfocdm6nyaobv.gif" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Short Handed
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content3">
+                                                            The UK's Office for Budget Responsibility (OBR) said that the British economy could shrink by as much as 35% between Q2 and Q3, 2020 with unemployment doubling up to 10%.
+                                                            <br>More important, they predicted budget deficit could hit £273 billion ($342.23 billion) in the 2020/21 fiscal year, equivalent to 14% of GDP and the Kingdom's biggest deficit in 80 years.
+                                                            <br>
+                                                            <br> OBR's projection was based on the assumption that the lockdown will last for 3 months followed by another 3-month extension with restrictions partially lifted.
+
+                                                            <a href="https://www.bbc.com/news/business-52279871"> Read More</a>
+                                                        </li>
+                                                        <li class="content content3">
+                                                            London-based FMCG giant Unilever, like every person on the planet right now, isn't feeling too good about the coronavirus pandemic, despite surges in sales of Soaps and hygiene products.
+                                                            <br>The company's CEO Alan Jope also debunked the recent uproar about panic buying and hoarding of supplies, stating that they were largely "an American phenomenon". He further lamented a dire
+                                                            reduction in out-of-home consumption of ice-cream and restaurant products.
+                                                            <br>Duh! Bro, restaurants are closed.
+                                                            <br>
+                                                            <br> BTW, the UK is planning on extending its lockdown to as far as May ending.
+
+                                                            <a href="https://www.cnbc.com/2020/04/14/coronavirus-is-not-good-news-for-unilever-says-ceo-alan-jope.html?&qsearchterm=UK"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#8D0303;">Asia</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586920303/h1f9cuchovvurfmyhofg.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Easter Eggs in Stock
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content3">
+                                                            Stock markets all over the world received their Easter gift from China on Tuesday. Majority of all the major indexes around the world rallied after the Chinese trade report was published. The trade report fueled optimism in the market as the Chinese trade
+                                                            for March fell lesser than projected by analysts and this gave hope that the global economy might recover sooner than expected.
+
+                                                            <a href=" https://www.cnbc.com/2020/04/14/asia-markets-china-march-trade-data-coronavirus-currencies-in-focus.html"> Read More</a> </li>
+
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#023f6f;">Knowledge Box</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1583822137/ayt1rgd8rqnebsuu1mwm.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Perfect😍
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Perfect competition is a market structure that is <b>free from</b> any type of <b>barriers</b> to a free and fair <b>competition</b> between sellers in the market. In essence, competition is
+                                                            at its highest level in this market, and is the direct opposite of a monopoly. The assumptions of perfect competition are such that it is impossible to find outside textbooks (and EDH of course).
+                                                            <br>A perfectly competitive market has features such as: the presence of many competing sellers and buyers, easy entry and exit into the market, perfect knowledge of market conditions (such as
+                                                            price, quality of goods, etc) by both buyers and sellers, etc. The features of this market thus ensures that a buyer is only willing to pay as much as the good is worth, and the seller can only
+                                                            sell at a fair price. All the goods in the market are the same, and there is no branding or advertising. As a result neither of the parties can impose a price, instead, the market decides the
+                                                            prices of goods and services.
+                                                            <br> All of these conditions come together to form the ideal market in a capitalist economy, a market only controlled by the invisible hand. For a better understanding of these features that
+                                                            make up a perfectly competitive market, click
+                                                            <a href="https://www.investopedia.com/terms/p/perfectcompetition.asp">here</a>
+
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card3">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <div id="bottom">
+                                                        <ul id="quote">
+                                                            <li class="quote" style="color:#D88405;">
+                                                                ✍🏽Quote of The Day
+                                                            </li>
+                                                            <li class="quotecont">"The reward for work well done is the opportunity to do more."
+                                                            </li>
+                                                            <li class="aut_name" style="color:#00A8E6;">
+                                                                <i>~Jonas Salk
+                                                </i>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="botIn">
+                                                            <!-- <div class="header">Quick One</div> -->
+                                                            <!-- Did you know that <b style="color:#00A8E6;"> Air force one</b> , the US President's transport aircrafts (2) were purchased from Boeing on a contract worth nearly <b style="color:#00A8E6;">  $4 billion!</b>                                                            The geu Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis hic perferendis nostrum dolore repellendus, ad tempora unde ipsa libero non blanditiis incidunt labore
+                                              quia dolor deleniti inventore quos in odio. -->
+                                                        </div>
+                                                        <ul class="prob">
+                                                            <li>Got questions? Ask by replying this Email </li>
+                                                            <li class="share">We would also appreciate your feedback,dont forget toshare the link to sign up for our daily <a href="https://www.economicsdirecthub.com">newsletters</a> with your friends. </li>
+                                                            <li class="rock">
+                                                                <h3>you Rock!</h3>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card4">
+                                        <table width="640" class="w640" id="soc" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <table cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td class="follow f1">Follow us today!</td>
+                                                            <td class="follow f2">
+                                                                <a href="https://twitter.com/edhubinfo/"><img src="https://res.cloudinary.com/economics-direct-hub/image/upload/v1576794800/olkgeqxnqmgr8ca7lfbx.jpg" alt="twitter icon" width="30"></a>
+                                                            </td>
+                                                            <td class="follow f3">
+                                                                <a href="https://www.linkedin.com/company/economicsdirecthub/"><img src="https://res.cloudinary.com/economics-direct-hub/image/upload/v1576794774/kk8rtapdxi65veecvhm5.png" alt="linkedin icon" width="25"></a>
+                                                            </td>
+                                                            <td class="follow f4">
+                                                                <a href="https://www.instagram.com/edhubinfo/"><img src="https://res.cloudinary.com/economics-direct-hub/image/upload/v1576795565/dewolv1adxilazjw7a2r.png" alt="instagram icon" width="25"></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

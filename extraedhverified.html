@@ -1,0 +1,890 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="./another.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300&amp;display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        #bcgTable {
+            background-color: #F4F4F4;
+        }
+        
+        .card {
+            margin: 20px 0 0;
+        }
+        
+        .imgtd1 {
+            text-align: center;
+            padding: 5px 0;
+            border-bottom: 3px solid #00A8E6;
+        }
+        
+        .greet1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px;
+            padding: 21px 0 0 15px;
+            line-height: 20px;
+            color: #171E27;
+        }
+        
+        .greet2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: #283444;
+            padding: 5px 0 0 15px;
+        }
+        
+        .topIn div {
+            background: #F4F4F4;
+            border-radius: 3px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: start;
+            color: #283444;
+            padding: 17px 20px;
+            margin: 15px;
+        }
+        
+        .abtNws {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 19px;
+            line-height: 23px;
+            text-align: center;
+            color: #283444;
+        }
+        
+        #tableli {
+            background: linear-gradient(0deg, #00AFEF 0%, #006E96 100%);
+            border-radius: 3px;
+            padding: 10px 30px 30px;
+            margin: 10px 20px 20px;
+        }
+        
+        #tablehead {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 25px;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 0 0 7px;
+        }
+        
+        b {
+            color: #00A8E6;
+        }
+        
+        #etable {
+            border-collapse: collapse;
+            background: #E7E7E7;
+            width: 100%;
+        }
+        
+        #etable .etable1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #171E27;
+        }
+        
+        .start {
+            text-align: start;
+            padding: 7px 0 7px 50px;
+        }
+        
+        .end {
+            text-align: end;
+            padding: 7px 50px 7px 0;
+        }
+        
+        .etables {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #171E27;
+            background: #FFFFFF;
+            border-top: 1px solid rgba(0, 0, 0, 0.73);
+        }
+        
+        #intro {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            color: #283444;
+            padding: 0 15px 20px;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .card2 td {
+            padding: 25px 20px;
+        }
+        
+        .country img {
+            border-radius: 4px;
+        }
+        
+        ul .content {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #283444;
+            list-style-type: disc;
+            margin: 20px 20px 0;
+        }
+        
+        .country .nameCount {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 33px;
+            padding: 0 0 15px;
+            color: #1A1A1A;
+        }
+        
+        .header {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 26px;
+            color: #000000;
+            padding: 10px 0 0;
+        }
+        
+        .content a {
+            color: #00A8E6;
+        }
+        
+        .card3 td {
+            padding: 15px 20px;
+        }
+        
+        #bottom {
+            margin: 15px;
+        }
+        
+        #quote {
+            background-color: #121213;
+            border-radius: 3px;
+            padding: 5px 0 20px 20px;
+        }
+        
+        .quote {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 20px;
+            padding: 8px 0 0;
+        }
+        
+        .quotecont {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 23px;
+            color: #F4F4F4;
+            text-align: start;
+            padding: 20px 20px 5px;
+        }
+        
+        .botIn {
+            background: #F4F4F4;
+            border-radius: 3px;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: start;
+            color: #283444;
+            padding: 0 17px 15px;
+            margin: 25px 0 20px;
+        }
+        
+        .botIn .header {
+            padding: 10px 0 7px;
+        }
+        
+        .prob {
+            background: #CCEFFC;
+            border-radius: 3px;
+            font-style: normal;
+            font-size: 16px !important;
+            line-height: 160%;
+            color: #1A1A1A;
+            padding: 15px 10px 20px 15px;
+        }
+        
+        .prob a {
+            color: #00A8E6;
+        }
+        
+        .card4 {
+            margin: 15px 0 30px;
+        }
+        
+        .follow {
+            padding: 5px 0 5px 50px;
+        }
+        
+        .f1 {
+            color: #1A1A1A;
+            padding: 0 50px 0 40px;
+            background-color: #CCEFFC;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 18px;
+        }
+        
+        @media screen and (max-width: 480px) {
+            * {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            table[class=w640] {
+                width: 500px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            table[class=mainbd] {
+                width: 100% !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div .greet1 {
+                font-size: 24px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div .greet2 {
+                font-size: 22px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .topIn div {
+                font-size: 21px !important;
+                line-height: 33px !important;
+            }
+            .start {
+                text-align: start;
+                padding: 7px 0px 7px 35px !important;
+            }
+            .end {
+                text-align: end;
+                padding: 7px 40px 7px 0px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .abtNws {
+                font-size: 24px !important;
+                line-height: 35px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr div #tablehead {
+                font-size: 24px !important;
+                line-height: 55px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr div #etable {
+                line-height: 26px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr div #etable .etable1 {
+                font-size: 22px !important;
+                line-height: 42px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr div #etable .etables {
+                font-size: 19px !important;
+                line-height: 38px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr #intro {
+                font-size: 23px !important;
+                line-height: 30px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            ul .content {
+                font-size: 22px !important;
+                line-height: 30px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            ul .nameCount {
+                font-size: 40px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            ul .header {
+                font-size: 30px !important;
+                padding: 29px 0 5px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .quote {
+                font-size: 23px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .quotecont {
+                font-size: 22px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .botIn {
+                font-size: 22px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            div tr .prob {
+                font-size: 22px !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .f1 {
+                font-size: 23px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table id="bcgTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td align="center">
+                    <table width="640" class="w640" cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="card card1">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td class="imgtd1">
+                                                    <div>
+                                                        <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1581612972/hic7hsmipjjwvoduo9ji.png" alt="" width="40%">
+                                                        <!-- <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1581612972/hic7hsmipjjwvoduo9ji.png" alt="" width="13%" align="right"> -->
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="greet greet1">Dear Smart EDHubers
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="greet greet2"> This is your Daily Dose!</td>
+                                            </tr>
+                                            <tr class="topTr">
+                                                <td class="topIn">
+                                                    <div>
+                                                        Time for a little throwback Thursday...
+                                                        <br> Today we remember a Hollywood comedy legend.
+                                                        <br> Before <b>Mr. Bean</b> made us laugh so much that our bellies ached, before <b>Mr. Ibu</b> and co. made us roll over with laughter, <b>Charlie Chaplin</b> ruled comedy for years and was even
+                                                        knighted for his efforts.
+                                                        <br> 131 years ago today, Charlie was born in London England. Whenever you feel bored with the lockdown, look up some old Charlie Chaplin comedies. They're fun to watch and worth checking out.
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" class="abtNws">
+                                                    Today's newsletter perseveres
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div id="tableli">
+                                                        <div id="tablehead"> Nigeria Economy at a Glance</div>
+                                                        <table id="etable" cellpadding="0" cellspacing="0" border="0">
+                                                            <tr class="etable etable1">
+                                                                <td class="start">ITEM</td>
+                                                                <td class="end">CURRENT</td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">GDP growth (FY’19)</td>
+                                                                <td class="end">2.27%
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">Inflation rate(Feb ’20) </td>
+                                                                <td class="end">12.20%
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">Crude Oil</td>
+                                                                <td class="end"> $28.26
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="etable etables">
+                                                                <td class="start">Interest(MPR) rate</td>
+                                                                <td class="end">13.5%</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td id="intro" align="center"> Here are the top news you should know in the global economy today, <b style="color:#00A8E6;">16 April 2020</b> in 5 minutes.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#33ca39;">Nigeria</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586982955/fgedaor2rupvu68olqig.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                The Uptick ✔️
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            The dollar had fallen significantly against most major currencies, as market players switch to safe-havens like gold. Naira also shares this sentiment in her way by appreciating against the dollar, exchanging at N383 to a dollar, stronger than N385 on
+                                                            Tuesday. This appreciation is due to reduced currency trading activities by Nigerian commercial banks (of course on the back of COVID-19).
+                                                            <a href="https://nairametrics.com/2020/04/15/naira-gains-on-the-dollar-for-the-first-time-since-march/"> Read More</a>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            To guard against the uncertainties of the hopeful end of COVID-19, the Central Bank of Nigeria plans targets four strategic sectors that will support mass employment and wealth creation in the country.
+                                                            <br>The sectors include: Housing, renewable energy, research and light manufacturing. Seem to be the sectors to invest in if you ask me.
+
+                                                            <a href="https://nairametrics.com/2020/04/15/4-key-sectors-the-cbn-plans-to-pump-money-into-4-key-sectors-the-cbn-plans-to-pump-money-into/"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#D88405;">Africa</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586901413/y7sqt9lerzmnglyxxvyq.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Most Supportive!
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            The International Monetary Fund expects Sub-Saharan Africa’s gross domestic product to shrink this year by 1.6% signalling its worst performance on combined effects of the pandemic, plummeting oil and commodities prices.
+
+                                                            <br>Yet, it gave a relaxing hope with expected growth of 4% in 2021 if containment measures are eased this year.
+                                                            <br>
+                                                            <br> The fund is set to provide about $11 billion to 32 Sub-Saharan African countries that have requested help in recent weeks after granting debt reliefs to 25 countries globally earlier this
+                                                            week.
+                                                            <br>
+                                                            <br> The <b>side gist</b> is that IMF has already disbursed money to Burkina Faso, Chad, Gabon, Ghana, Madagascar, Niger, Rwanda, Senegal, and Togo. Let's see if Nigeria would make the next list
+                                                            of 32 countries!
+                                                            <a href="https://af.reuters.com/article/topNews/idAFKCN21X1MJ-OZATP"> Read More</a>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Elsewhere, IMF is considering $365 million in urgent support for the Democratic Republic of Congo as the country battles three different pandemics together - Ebola, Measles and COVID-19 outbreak. This signals a very hard time for Congo who relies on mineral
+                                                            shipment to China for most of its foreign earnings.
+                                                            <a href="https://www.bloomberg.com/amp/news/articles/2020-04-15/imf-mulls-365-million-loan-to-congo-battling-multiple-epidemics?__twitter_impression=true"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#D80505;">The US</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586920476/wmxseem8wcd0wx0cddhj.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Derailed Retail
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            According to the U.S. Commerce Department, retail sales was dealt a blow as it suffered a record drop in March as mandatory business closures to control the spread of the novel coronavirus outbreak depressed demand for a range of goods.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Quick Highlight🖊:</b>
+                                                            <br>Retail sales which dropped by upwardly revised 0.4% in February went spelunking down a very steep cave as it dropped by 8.7% in March. The fall was 0.7 higher than economists expected (8%).
+
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">
+                                                                More Light🔦:</b>
+                                                            <br>With this ugly news, the U.S. should definitely expect another "covid-19-bred" monster. This monster will ravage consumer spending (rose by 1.8% in Q1'2020) which represents more than two-thirds
+                                                            of the US's GDP (rose by 2.1% in 2019).
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Quick Safe Note📃:</b>
+                                                            <br>Well, all the "rose"s the U.S. had in 2019 are about to point in the direction of a standard nose (down, get it!). From Q1'2020 growth rate to consumer spending which is expected to drop
+                                                            by atleast 41%, according to economists, despite the $2.3 trillion relief package.
+                                                            <a href="https://www.cnbc.com/2020/04/15/us-retail-sales-march-2020.html">Read More</a> </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#4908FF;">Europe</div>
+                                                            <img src=" http://res.cloudinary.com/economics-direct-hub/image/upload/v1586991176/kdwx07lh3jw0ewfcb3qa.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Likely Solution!
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            The obscure search for economic recovery in the EU could just be nearing an end as EU Commission President pin-points the potential of the seven-year budget.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">What Are We Saying?</b> <br> Comprehensive talks have begun in EU concerning the modalities of sourcing, spending and the extent to which the budget can be used
+                                                            to rebound the economy from the pandemic in Europe. Although the budget isn't the only buffer in providing funds to support this course.
+
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">  Displaced Priorities! </b> <br>The negative impact of the pandemic ushers expected to shift EU leaders' concentrations from using the fund for defence, technology
+                                                            and green economy. Instead, a large chunk will be used to face the economic slowdown caused by the lockdown.
+                                                            <br>
+                                                            <br><b>
+                                                                The Last Gist:</b>
+                                                            <br> Separately, the EU will organise an online conference on May 4, to raise funds for the search of a vaccine to the novel coronavirus with about 8 billion euros needed .
+
+                                                            <a href="https://www.reuters.com/article/us-health-coronavirus-eu-budget/next-budget-must-b e-europes-answer-to-coronavirus-crisis-eu-chiefs-say-idUSKCN21X189"> Read More</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#00A8E6;">EDH Grind Team</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586981778/p8r1duno3grbdot3oxam.gif" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Movie talk
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Let's take a break on all those motivational speeches today. We probably have enough motivation in us to last the rest of the year.
+                                                            <br>
+                                                            <br> So let's play a game, share with us on our <a href="https://tinyurl.com/ux47u2l">WhatsApp TV</a>, a line from your favourite movie and who said it.
+                                                            <br>
+                                                            <br>
+                                                            <b> My pick:</b> <br> "We are now in the end game" - Avengers (Dr Strange)
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#C8B203;">Energy And Commodities</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586991197/b2p7hh5usxwgavonpb9z.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Harsh Times
+                                                            </div>
+                                                            <br>
+                                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <th></th>
+                                                                        <th style="padding:0px 0px 5px 10px !important;font-size:15px;">price</th>
+                                                                        <th style="padding:0px 0px 0px 10px !important;font-size:15px;">Change</th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th style="padding:10px 0px 5px 0px !important;font-size:15px;">Brent Crude</th>
+                                                                        <td style="padding:10px 0px 5px 10px !important;font-size:15px;"> $28.26 </td>
+                                                                        <td style="padding:10px 0px 0px 10px !important;font-size:15px;"> -4.53%
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th style="padding:10px 0px 5px 0px !important;font-size:15px;">Gold futures</th>
+                                                                        <td style="padding:10px 0px 5px 10px !important;font-size:15px;"> $1,740.20 </td>
+                                                                        <td style="padding:10px 0px 0px 10px !important;font-size:15px;"> -1.60%
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            Despite the efforts by global oil producers to curb production in order to balance the market over the last week, the world is still facing a massive demand issue.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">What's going on?</b>
+                                                            <br>On Wednesday, the International Energy Agency (IEA), projected that demand for crude would slump in April by 29 million BPD to levels not seen in a quarter of a century. That would equate
+                                                            to roughly 29% of the world’s 100-million-barrel daily oil-demand figure from 2019.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Saudi Aramco's Conspiracy</b>
+                                                            <br> Saudi Aramco has started underpricing the crude they sell to Asia (at a discount of $4 a barrel) and offering fantastic credit to refiners in both Asia and Europe.
+
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Nigeria's nightmare</b>
+                                                            <br>Nigeria’s unsold cargoes for April and May came to 60 even though the NNPC discounted the April official selling for its oil grades- Bonny Light and Qua Iboe by $5 and 3.29 per barrel respectively
+                                                            against Brent.
+                                                            <br>
+                                                            <br><b style="color:#00A8E6;">Final note</b>
+                                                            <br>April is not looking good for oil prices. We expect that prices will come under further downward pressure in the coming days and weeks. Traders take cover!!
+                                                            <a href="https://m.investing.com/news/commodities-news/brent-oil-plunges-as-saudis-offer-credit-to-refiners-deep-discounts-to-asia-2141275"> Read More</a>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            In times of global economic crisis and gloomy economic data, gold tend to be the hiding place for investors. But what we have seen is investors selloffs of the yellow metal to cover losses in equities and elsewhere.
+
+                                                            <br>Nevertheless, the bullish outlook for the precious metal remain intact.
+                                                            <a href="https://m.investing.com/news/commodities-news/wedded-to-wall-street-gold-dips-most-for-april-2141351"> Read More</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#6400A2;">The UK</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586989625/ipz0ltmtyccgysmhbywh.gif" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Brexit Marching On
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content3">
+                                                            A video conference between David Frost, the UK's chief negotiator, and the European Commission's chief negotiator, Michel Barnier, revealed that negotiators of the UK and EU have agreed to stage three (3) further rounds of talks on a post-Brexit trade
+                                                            deal.
+                                                            <br>
+                                                            <br><b>The dates:  </b> <br> 20 April, 11 May and 1 June have been slated for the trade talks, totalling a combined 3 weeks in between.
+                                                            <br>UK Finance Chancellor, Rishi Sunak, also reaffirmed the British government's mission to secure a deal by the 31st December deadline, despite the raging virus which has killed nearly 13,000
+                                                            Britons.
+                                                            <br> Not even a global pandemic is gonna stop the Brexit juggernaut.
+                                                            <a href="https://www.bbc.com/news/uk-politics-52298790"> Read More</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#8D0303;">Asia</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586920303/h1f9cuchovvurfmyhofg.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Nightmares
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content3">
+                                                            The nightmare haunting most governments right now is looking forward to a report or forecast stating how bad the economic situation for its citizens. The Japanese government is expected to give its worst economic assessment in over a decade on Friday
+                                                            as the impact of the coronavirus has eaten deep into the country's consumption and production activities.
+                                                            <a href="https://www.reuters.com/article/us-health-coronavirus-japan-economy/japan-to-offer-bleakest-view-on-economy-in-over-a-decade-as-pandemic-hits-nikkei-idUSKCN21X3A7"> Read More</a>
+                                                        </li>
+                                                        <li class="content content3">
+                                                            Some countries seem to be winning the battle against the most famous virus (COVID 19). Vietnam has partially opened up its economy with its airlines resuming operations to some selected destinations.
+                                                            <br> This move might be a good thing for the economy but how prepared is Vietnam for a second wave of the virus?
+                                                            <a href=" https://www.reuters.com/article/health-coronavirus-vietnam-airlines/vietnamese-airlines-to-resume-flights-after-virus-lockdown-eases-idUSL3N2C33Q9"> Read More</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card2">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <ul class="news_container news_container1">
+                                                        <li class="country country1">
+                                                            <div class="nameCount" style="color:#023f6f;">Knowledge Box</div>
+                                                            <img src="http://res.cloudinary.com/economics-direct-hub/image/upload/v1586922669/bex7nhpxl2wv3ahku4wz.jpg" width="100%" height="330" alt="">
+                                                            <div class="header">
+                                                                Monopoly
+                                                            </div>
+                                                        </li>
+                                                        <li class="content content1">
+                                                            A <b>monopolistic market</b> is the diametric <b>opposite</b> of the <b>perfectly competitive market</b>. While the perfect competition has a "perfect" competition, a monopoly is characterized
+                                                            by no competition. Hence, there is only one seller in the market, ruling the market with an iron fist. There extremely high barriers to entry which may be legal (e.g. patent), as a result of
+                                                            large cost of producing the good, or due to natural resources available to no one else. Instead of the market forces, the monopoly has the power to choose its own prices, or total quantity of
+                                                            that product in the market (but not both). As a result, a pure monopoly is undesirable because it may decide to restrict output in such a way that people who need the product are unable to get
+                                                            it.
+                                                            <br>That is theory though. In real life, pure monopolies rarely exist, because even where the monopoly is backed by law, there is usually a black market or a similar product as an alternative.
+                                                            However, even near-monopolies are able to achieve <b>super normal gains</b> .
+                                                            <a href="https://www.investopedia.com/terms/p/perfectcompetition.asp">here</a>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card3">
+                                        <table width="640" class="w640" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <div id="bottom">
+                                                        <ul id="quote">
+                                                            <li class="quote" style="color:#D88405;">
+                                                                ✍🏽Quote of The Day
+                                                            </li>
+                                                            <li class="quotecont">"Although no one can go back and make a brand new start, anyone can start from now and make a brand new ending"
+                                                            </li>
+                                                            <li class="aut_name" style="color:#00A8E6;">
+                                                                <i>~Carl Bard
+                                    </i>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="botIn">
+                                                            <!-- <div class="header">Quick One</div> -->
+                                                            <!-- Did you know that <b style="color:#00A8E6;"> Air force one</b> , the US President's transport aircrafts (2) were purchased from Boeing on a contract worth nearly <b style="color:#00A8E6;">  $4 billion!</b>                                                            The geu Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis hic perferendis nostrum dolore repellendus, ad tempora unde ipsa libero non blanditiis incidunt labore
+                                  quia dolor deleniti inventore quos in odio. -->
+                                                        </div>
+                                                        <ul class="prob">
+                                                            <li>Got questions? Ask by replying this Email </li>
+                                                            <li class="share">We would also appreciate your feedback,dont forget toshare the link to sign up for our daily <a href="https://www.economicsdirecthub.com">newsletters</a> with your friends. </li>
+                                                            <li class="rock">
+                                                                <h3>you Rock!</h3>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card card4">
+                                        <table width="640" class="w640" id="soc" style="background-color:#FFFFFF;">
+                                            <tr>
+                                                <td>
+                                                    <table cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td class="follow f1">Follow us today!</td>
+                                                            <td class="follow f2">
+                                                                <a href="https://twitter.com/edhubinfo/"><img src="https://res.cloudinary.com/economics-direct-hub/image/upload/v1576794800/olkgeqxnqmgr8ca7lfbx.jpg" alt="twitter icon" width="30"></a>
+                                                            </td>
+                                                            <td class="follow f3">
+                                                                <a href="https://www.linkedin.com/company/economicsdirecthub/"><img src="https://res.cloudinary.com/economics-direct-hub/image/upload/v1576794774/kk8rtapdxi65veecvhm5.png" alt="linkedin icon" width="25"></a>
+                                                            </td>
+                                                            <td class="follow f4">
+                                                                <a href="https://www.instagram.com/edhubinfo/"><img src="https://res.cloudinary.com/economics-direct-hub/image/upload/v1576795565/dewolv1adxilazjw7a2r.png" alt="instagram icon" width="25"></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
