@@ -25,7 +25,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
-    padding: 21px 0px 0px 15px;
+    padding: 21px 0 0 15px;
     line-height: 20px;
     color: #171E27;
 }
@@ -35,7 +35,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     color: #283444;
-    padding: 5px 0px 0px 15px;
+    padding: 5px 0 0 15px;
 }
 
 .topIn div {
@@ -46,7 +46,7 @@ body {
     line-height: 22px;
     text-align: start;
     color: #283444;
-    padding: 15px 17px;
+    padding: 17px 20px;
     margin: 15px;
 }
 
@@ -70,7 +70,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
-    line-height: 20px;
+    line-height: 25px;
     color: #FFFFFF;
     text-align: center;
     padding: 0 0 7px;
@@ -90,7 +90,7 @@ b {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 20px;
     color: #171E27;
 }
 
@@ -108,7 +108,7 @@ b {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: 11px;
+    line-height: 15px;
     color: #171E27;
     background: #FFFFFF;
     border-top: 1px solid rgba(0, 0, 0, 0.73);
@@ -257,46 +257,62 @@ ul .content {
 
 @media screen and (max-width: 480px) {
     table[class=w640] {
-        width: 200px !important;
+        width: 500px !important;
     }
 }
 
 @media screen and (max-width: 480px) {
     table[class=mainbd] {
-        width: 20% !important;
+        width: 100% !important;
     }
 }
 
 @media screen and (max-width: 480px) {
     div .greet1 {
-        font-size: 23px !important;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    div .greet2 {
-        font-size: 20px !important;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    div tr .topIn div {
-        font-size: 20px !important;
-        line-height: 25px !important;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    div tr .abtNws {
         font-size: 24px !important;
         line-height: 30px !important;
     }
 }
 
 @media screen and (max-width: 480px) {
-    div tr #tablehead {
+    div .greet2 {
+        font-size: 22px !important;
+        line-height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .topIn div {
+        font-size: 21px !important;
+        line-height: 33px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .start {
+        text-align: start;
+        padding: 7px 0 7px 35px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .end {
+        text-align: end;
+        padding: 7px 40px 7px 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr .abtNws {
         font-size: 24px !important;
-        line-height: 25px;
+        line-height: 35px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div tr div #tablehead {
+        font-size: 24px !important;
+        line-height: 55px !important;
     }
 }
 
@@ -304,16 +320,19 @@ ul .content {
     div tr div #etable {
         line-height: 26px !important;
     }
+}
+
+@media screen and (max-width: 480px) {
     div tr div #etable .etable1 {
         font-size: 22px !important;
-        line-height: 18px !important;
+        line-height: 42px !important;
     }
 }
 
 @media screen and (max-width: 480px) {
-    div tr div .etables {
+    div tr div #etable .etables {
         font-size: 19px !important;
-        line-height: 15px !important;
+        line-height: 38px !important;
     }
 }
 
@@ -340,19 +359,21 @@ ul .content {
 @media screen and (max-width: 480px) {
     ul .header {
         font-size: 30px !important;
-        padding: 29px 0px 5px 0px !important;
+        padding: 29px 0 5px !important;
     }
 }
 
 @media screen and (max-width: 480px) {
     div tr .quote {
         font-size: 23px !important;
+        line-height: 25px;
     }
 }
 
 @media screen and (max-width: 480px) {
     div tr .quotecont {
-        font-size: 22px !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
     }
 }
 
@@ -363,8 +384,9 @@ ul .content {
 }
 
 @media screen and (max-width: 480px) {
-    div tr .prob {
-        font-size: 22px !important;
+    div tr div .prob li {
+        font-size: 21px !important;
+        line-height: 170%;
     }
 }
 
@@ -373,5 +395,3 @@ ul .content {
         font-size: 23px !important;
     }
 }
-
-</style>
